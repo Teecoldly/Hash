@@ -1,0 +1,32 @@
+﻿  main.cpp
+c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(95): warning C4018: '<': signed/unsigned mismatch
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(93): note: while compiling class template member function 'void HashTable<int>::makeEmpty(void)'
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(86): note: see reference to function template instantiation 'void HashTable<int>::makeEmpty(void)' being compiled
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(84): note: while compiling class template member function 'HashTable<int>::HashTable(const HashedObj &,int)'
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\main.cpp(7): note: see reference to function template instantiation 'HashTable<int>::HashTable(const HashedObj &,int)' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\main.cpp(7): note: see reference to class template instantiation 'HashTable<int>' being compiled
+c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(210): warning C4018: '<': signed/unsigned mismatch
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(206): note: while compiling class template member function 'void HashTable<int>::rehash(void)'
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(188): note: see reference to function template instantiation 'void HashTable<int>::rehash(void)' being compiled
+c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(214): warning C4018: '<': signed/unsigned mismatch
+c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(131): warning C4018: '>=': signed/unsigned mismatch
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(123): note: while compiling class template member function 'int HashTable<int>::findPos(const HashedObj &) const'
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(105): note: see reference to function template instantiation 'int HashTable<int>::findPos(const HashedObj &) const' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+c:\users\teecoldly\desktop\assignment 3 hash\haching\haching\hash.h(116): warning C4172: returning address of local variable or temporary: index
+  Haching.vcxproj -> C:\Users\TEECOLDLY\Desktop\Assignment 3 Hash\Haching\Debug\Haching.exe
